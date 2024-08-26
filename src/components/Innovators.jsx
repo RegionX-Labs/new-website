@@ -50,7 +50,7 @@ const Innovators = () => {
 
   return (
     <section
-      id="innovators"
+      id="#team"
       className="lg:py-[100px] md:py-[60px] py-[40px] bg-slate-700 overflow-hidden"
     >
       <div id="team" className="container mx-auto px-12 2xl:px-12">

@@ -17,7 +17,7 @@ export const links = [
     url: "https://github.com/RegionX-Labs/Docs/blob/main/RegionX-Core.pdf",
   },
   {
-    id: 3,
+    id: 4,
     title: "Team",
     url: "#team",
   },
