@@ -14,7 +14,7 @@ export const links = [
   {
     id: 3,
     title: "Whitepaper",
-    url: "https://github.com/RegionX-Labs/Docs/blob/main/RegionX-Core.pdf",
+    url: "https://github.com/RegionX-Labs/Papers/blob/main/RegionX-Marketplace.pdf",
   },
   {
     id: 4,
