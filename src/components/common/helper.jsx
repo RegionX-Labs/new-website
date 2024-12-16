@@ -4,7 +4,7 @@ export const links = [
   {
     id: 1,
     title: "Home",
-    url: "#main",
+    url: "/#main",
   },
   {
     id: 2,
@@ -18,8 +18,8 @@ export const links = [
   },
   {
     id: 4,
-    title: "Team",
-    url: "#team",
+    title: "Plan",
+    url: "/plan",
   },
 ];
 
