@@ -149,10 +149,10 @@ const SolutionWhy = () => {
                   <p className="community-para-text text-lg lg:text-xl mt-6">
                     With bridges such as{" "}
                     <span className="text-primary font-bold">Snowbridge</span>{" "}
-                    and
+                    and{" "}
                     <span className="text-primary font-bold">
                       Hyperbridge
-                    </span>{" "}
+                    </span>
                     , now available, it shouldn't matter whether a rollup is
                     deployed on Ethereum or Polkadot. Moreover, bridging assets
                     from a Polkadot rollup is actually much faster than from an{" "}
