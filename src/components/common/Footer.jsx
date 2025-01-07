@@ -18,10 +18,10 @@ const Footer = () => {
           </div>
           <div className="lg:w-1/4 px-[10px] w-full">
             <div className="md:mb-[32px] flex flex-col gap-2 md:last:mb-0 mb-4">
-              <span className="footer-link-heading">Contact us</span>
+              <span className="footer-link-heading">X (Twitter)</span>
 
-              <a className=" footer-links" href="#">
-                - - -
+              <a className=" footer-links" href="https://x.com/RegionXLabs">
+                @RegionXLabs
               </a>
             </div>
             <div className="md:mb-[32px] flex flex-col gap-2 md:last:mb-0 mb-4">
@@ -33,16 +33,6 @@ const Footer = () => {
             </div>
           </div>
           <div className="lg:w-1/3 px-[10px] w-full">
-            <div className="md:mb-[32px] flex flex-col gap-2 md:last:mb-0 mb-4">
-              <span className="footer-link-heading">Address</span>
-              <a
-                className="inline-block footer-links"
-                href="#"
-                target="_blank"
-              >
-                - - -
-              </a>
-            </div>
             <div className="md:mb-[32px] gap-2 flex-col flex md:last:mb-0 mb-4">
               <span className="footer-link-heading">OUR COMMUNITY</span>
               <a
