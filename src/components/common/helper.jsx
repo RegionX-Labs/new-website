@@ -25,6 +25,7 @@ export const links = [
     id: 5,
     title: "Solutions",
     url: "/solutions",
+    new: true,
   },
 ];
 

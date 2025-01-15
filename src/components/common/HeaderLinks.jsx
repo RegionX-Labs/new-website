@@ -48,6 +48,11 @@ const HeaderLinks = ({ setIsLeftMenu, locomotiveRef }) => {
             className="md:inline-block block cursor-pointer leading-[16px] py-[6px] px-4 text-black text-sm font-medium no-underline hover:bg-primary hover:text-white rounded-[4px]"
           >
             {link.title}
+            {link.new && (
+              <span className="ml-2 text-xs text-white bg-secondary px-2 py-0.5 rounded-md">
+                New
+              </span>
+            )}
           </a>
         </li>
       ))}
