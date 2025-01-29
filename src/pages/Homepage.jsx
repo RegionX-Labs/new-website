@@ -13,7 +13,7 @@ const Homepage = () => {
         <PolkadotOffer />
         <CommunityDriven />
         <InnovativeTool />
-        <Innovators />
+          <Innovators />
         <Footer />
       </main>
     </>
