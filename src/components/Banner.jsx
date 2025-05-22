@@ -76,7 +76,7 @@ const Banner = () => {
                   <button
                     type="button"
                     onClick={() =>
-                      (window.location.href = "https://app.regionx.tech")
+                      (window.location.href = "https://hub.regionx.tech")
                     }
                     className="rounded-lg bg-primary text-white px-4 py-2 flex items-center justify-center whitespace-nowrap h-[57px] w-[132px] group transition-all ease-out duration-300"
                   >

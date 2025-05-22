@@ -44,7 +44,7 @@ const Header = ({ locomotiveRef, startScrolling, stopScrolling }) => {
                 <li className="md:hidden mb-[15px] last:mb-0">
                   <button
                     type="button"
-                    onClick={() => window.location.href='https://app.regionx.tech'}
+                    onClick={() => window.location.href='https://hub.regionx.tech'}
                     className="rounded-lg bg-primary text-white px-4 py-2 flex items-center whitespace-nowrap font-inter group transition-all ease-out duration-300"
                   >
                     Open App{" "}
@@ -66,7 +66,7 @@ const Header = ({ locomotiveRef, startScrolling, stopScrolling }) => {
             </div>
               <button
                 type="button"
-                onClick={() => window.location.href='https://app.regionx.tech'}
+                onClick={() => window.location.href='https://hub.regionx.tech'}
                 className="rounded-lg bg-primary text-white px-4 py-2 items-center whitespace-nowrap font-inter lg:flex hidden group transition-all ease-out duration-300"
               >
                 Open App{" "}
@@ -90,7 +90,7 @@ const Header = ({ locomotiveRef, startScrolling, stopScrolling }) => {
           <li className="md:hidden mb-[15px] last:mb-0">
             <button
               type="button"
-              onClick={() => window.location.href='https://app.regionx.tech'}
+              onClick={() => window.location.href='https://hub.regionx.tech'}
               className="rounded-lg bg-primary text-white px-4 py-2 flex items-center whitespace-nowrap font-inter group transition-all ease-out duration-300"
             >
               Open App{" "}
