@@ -61,18 +61,34 @@ const Innovators = () => {
             className="w-[40px] h-[40px] object-contain"
           />
         </div>
-        <h2 className="text-black lg:text-[48px] md:text-[40px] text-[22px] md:leading-[54px] leading-[28px] font-inter font-medium lg:mb-5 mb-[25px] md:text-center pr-[100px] md:pr-0">
-          Meet the <span className="text-primary">Team</span> Behind RegionX
+        <h2 className="text-black text-center lg:text-[48px] md:text-[40px] text-[24px] md:leading-[54px] leading-[28px] font-inter font-medium lg:mb-5 mb-[25px] md:pr-0">
+          About <span className="text-primary">RegionX</span>
         </h2>
       </div>
-      <div className="container-custom">
-        <div className="w-full slider-equal-height">
-          <Slider {...settings}>
-            {teamData.map((item, i) => (
-              <TeamBox item={item} key={i} />
-            ))}
-          </Slider>
-        </div>
+      <div className="max-w-[1600px] m-auto">
+        <p className="mt-16 lg:text-xl mx-6 sm:mx-6 md:mx-12 lg:mx-32">
+          The RegionX team was founded and is led by <strong className="font-semibold">Sergej Sakac</strong>. 
+          He has been part of the Polkadot ecosystem for over three years and is an active contributor to the Polkadot-SDK. 
+          Sergej is a member of the Fellowship and an alumnus of the engineering track at the Polkadot Blockchain Academy held in Berkeley. 
+        </p>
+        <p className="mt-6 lg:text-xl mx-6 sm:mx-6 md:mx-12 lg:mx-32">
+          The project was founded in 2023, shortly after Agile Coretime was announced in {` `}
+          <a 
+            className="font-semibold underline" 
+            target={"_blank"}
+            href="https://github.com/polkadot-fellows/RFCs/blob/main/text/0001-agile-coretime.md"
+          >
+            {`Polkadot RFC-1`}
+          </a>. 
+           Ever since the launch of the project, we have been leading the way and are currently the only UI for managing Coretime.
+          We are also the first team to work on developing — and the only one to deliver — a secondary marketplace for Coretime.
+        </p>
+        <p className="mt-6 lg:text-xl mx-6 sm:mx-6 md:mx-12 lg:mx-32">
+           RegionX was initially funded by the <strong className="font-semibold">Web3 Foundation</strong>, after which we continued receiving funding from the <strong className="font-semibold">Polkadot Treasury</strong>, 
+           as the project is developing a product that <strong className="font-semibold">represents a key part of Polkadot</strong> — Coretime.
+          <br />
+          Coretime is the main product that Polkadot offers, and we are the <strong className="font-semibold">primary UI</strong> for Coretime management as well as the only <strong className="font-semibold">secondary marketplace</strong> for Coretime.
+        </p>
       </div>
     </section>
   );
