@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Logo from "/logo.svg";
+import Logo from "/logo.png";
 import { ArrowRightIcon, BarIcon } from "../common/Icon";
 import HeaderLinks from "./HeaderLinks";
 
@@ -27,7 +27,7 @@ const Header = ({ locomotiveRef, startScrolling, stopScrolling }) => {
           <div className="w-full h-full flex items-center justify-between">
             <div className="flex items-center">
               <a
-                className="no-underline hover:no-underline w-[32px] h-[32px]"
+                className="no-underline hover:no-underline w-[120px] h-[32px]"
                 href="#"
               >
                 <img src={Logo} />
